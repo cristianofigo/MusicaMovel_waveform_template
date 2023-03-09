@@ -1,9 +1,9 @@
 function score(){
   
-if (clock_global > "0" && clock_global < "1") {
+if (clock_global > "0:0:0" && clock_global < "1:0:0") {
    console.log("compasso 1");
  }
-if (clock_global > "3" && clock_global < "6") {
+if (clock_global > "3:0:0" && clock_global < "6:0:0") {
    console.log("compasso 2");
   region.start = 10; 
   region.end = 30;
